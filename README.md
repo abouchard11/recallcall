@@ -1,6 +1,22 @@
-# RecallCall landing page
+# RecallCall prototype
 
-Production-ready Next.js landing page for a paired veterinary-practice offer:
+## Current product direction
+
+This repository contains a finished vertical prototype, not the final market
+definition of the company. The overarching product is **TotalRecall**: a
+memoryful calling agent that owns relationship follow-through. It remembers
+prior conversations, promises, objections, deadlines, and next steps, then
+makes the next approved call.
+
+The veterinary/dental RecallCall and Billy Be Good experience remains a useful
+reference artifact. It must not be treated as the selected market, current
+product positioning, or evidence of customer demand. Product discovery now
+starts with a non-veterinary, compliance-aware research process:
+
+- [TotalRecall product discovery](docs/totalrecall-product-discovery.md)
+- [Buyer interview guide](docs/totalrecall-buyer-interview-guide.md)
+
+Responsive Next.js prototype for a paired veterinary-practice offer:
 RecallCall reactivates overdue clients by phone, while Billy Be Good turns an
 approved paper take-home sheet into a private, personalized digital aftercare
 guide.
