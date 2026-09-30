@@ -38,6 +38,7 @@ Start with approved B2B follow-up or explicitly requested callbacks, not cold co
 | Commercial contractor bid and estimate recovery | A late decision, revision, or missing document may require an informed call | The AI voice/estimate-follow-up category is visibly crowded; use as a comparison, not a default wedge |
 | Staffing-agency candidate and client reactivation | Prior fit, availability, role changes, and opt-outs matter | Specialized voice products plus consumer-contact and employment-policy risk may outweigh the wedge |
 | Property-services vendor coordination | The agent can remember open work, commitments, access constraints, and next actions | Tenant-facing calls add consumer-compliance complexity |
+| Commercial real-estate leasing and tenant-retention follow-through | Prospects, tenants, owners, vendors, lease terms, approvals, and promised next steps create account-specific call context | Existing CRM/process discipline may be sufficient; tenant-side or consumer calls can introduce approval and compliance constraints |
 
 No row above is a selected vertical. Research should eliminate candidates quickly rather than justify a favorite. The dated [market scan](totalrecall-market-scan-2026-09-30.md) sets interview priority; it is directional desk research, not proof of product-market fit.
 
@@ -47,11 +48,11 @@ Identify the first customer segment in which missed or delayed follow-up creates
 
 ## Study plan
 
-Run 6-8 semi-structured operator interviews over two weeks. Recruit two participants each from commercial distribution and managed services, then use the remaining two to four interviews for a deliberately skeptical comparison: contractor estimate recovery, staffing reactivation, or a newly surfaced workflow. For managed services, test an existing-client response-recovery job—not generic prospecting—such as an overdue approval, expiring service, security action, or other documented customer dependency. Prioritize people who own follow-up volume or can describe it in detail: sales managers, account managers, dispatch or operations leads, owners, or revenue-operations leaders.
+Run 6-8 semi-structured operator interviews over two weeks. Recruit two participants each from commercial distribution and managed services, then use the remaining two to four interviews for a deliberately skeptical comparison: contractor estimate recovery, staffing reactivation, commercial real-estate leasing/tenant retention, or another newly surfaced workflow. A current CRE contact master is an efficient recruitment source for the commercial-real-estate comparison cohort, but it is not evidence that CRE is the initial market. For managed services, test an existing-client response-recovery job—not generic prospecting—such as an overdue approval, expiring service, security action, or other documented customer dependency. For the CRE comparison, test specific jobs such as a prospect who went quiet after a tour, a tenant decision or renewal that needs an informed callback, a missing lease/approval document, or a vendor dependency; do not test generic lead generation. Prioritize people who own follow-up volume or can describe it in detail: sales managers, account managers, leasing or property managers, dispatch or operations leads, owners, or revenue-operations leaders.
 
 The first 35 minutes investigate actual recent follow-up events. The final 10 minutes test a deliberately narrow TotalRecall concept. Do not pitch TotalRecall before understanding the workflow.
 
-Collect a concrete recent relationship that went quiet, the timeline of calls and systems, the cost of no response, the context a caller needed, existing workarounds, contact authority and escalation boundaries, and a buyer-owned success metric for a pilot.
+Collect a concrete recent relationship that went quiet, the timeline of calls and systems, the cost of no response, the context a caller needed, existing workarounds, contact authority and escalation boundaries, and a buyer-owned success metric for a pilot. Keep the contact master outside this repository: record only anonymized interview IDs and evidence, never tenant, contact, customer, or email details.
 
 ## Decision rule
 
