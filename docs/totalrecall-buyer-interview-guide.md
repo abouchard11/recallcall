@@ -29,6 +29,7 @@ Avoid recruiting solely from people enthusiastic about AI. Include at least one 
 3. Where did the caller look for context before calling?
 4. Who decides whether a call is appropriate, and what happens when the answer is unclear?
 5. What system is supposed to track next steps? What actually happens?
+6. Does a missing response merely delay a sales opportunity, or does it block an approved operational action such as a renewal, service change, security task, or billing correction?
 
 ### Deep dive on a real missed opportunity - 20 minutes
 
@@ -40,6 +41,7 @@ Avoid recruiting solely from people enthusiastic about AI. Include at least one 
 6. What tools or people already attempt this? Where do they fail?
 7. What calls are prohibited, require consent, require disclosure, or must always transfer to a human?
 8. What would make you distrust a calling agent immediately?
+9. If the agent called an existing client about an approved operational dependency, what must it know from prior contact attempts before it calls—and what must it never decide or do?
 
 ### Concept reaction - 8 minutes
 

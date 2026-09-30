@@ -31,6 +31,6 @@ The machine-readable source is [totalrecall-discovery-graph.json](totalrecall-di
 
 ## Current live state
 
-- Hypotheses are selected for research: distribution/industrial quote follow-through and MSP renewals/dormant-account follow-through, with contractor estimate recovery as a skeptical comparison.
+- Hypotheses are selected for research: distribution/industrial quote follow-through and MSP existing-client response recovery for approved, time-bound service dependencies, with contractor estimate recovery as a skeptical comparison.
 - No research invitation has been sent and no interview has occurred under this project.
 - The graph is therefore intentionally waiting at **Approve recruitment scope**. That is a human-owned consequential edge, not a model failure.

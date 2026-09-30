@@ -36,7 +36,7 @@ Staffing vendors are already selling voice-led candidate reactivation and recrui
 | Rank | Workflow | Why it merits interviews | Known market signal | Falsifier |
 | --- | --- | --- | --- | --- |
 | 1 | Commercial distributor / industrial-sales open-quote follow-up | Part substitutions, price history, promised dates, stock/lead-time changes, and multiple buyer contacts can make the right follow-up highly contextual. The result is measurable: qualified next step, quote revision, order, or confirmed loss. | Distributor sales tools already advertise quote workflows, reminders, and ERP/CRM connections. The question is whether they preserve the relationship and govern calls well enough. [QuickQuote](https://quick-quote.in/) | Operators say a normal CRM task list or existing quote tool reliably handles the work, or the next call requires a sales engineer’s commercial judgment. |
-| 2 | MSP renewal and dormant-opportunity follow-up | Renewals connect service history, contracts, stakeholders, incidents, assets, and renewal dates. A missed handoff has a visible owner and recurring-revenue consequence. | Renewal-operation tools exist, and at least one voice vendor explicitly markets MSP renewal calls. That proves competition, not adequacy. [AVA by UNITELO](https://unitelo.ai/ava/industries/managed-service-providers) · [Salesix](https://salesix.ai/usecases/msp-contract-renewals) | Security/data-access requirements, customer trust, or existing renewal operations make a limited phone pilot impractical. |
+| 2 | MSP existing-client response recovery | An overdue approval, renewal, security action, or service dependency can connect service history, contacts, prior attempts, stakeholders, assets, and a deadline. A missed handoff has a visible owner and operational or recurring-revenue consequence. | Renewal-operation tools exist, and at least one voice vendor explicitly markets MSP renewal calls. That proves competition, not adequacy. [AVA by UNITELO](https://unitelo.ai/ava/industries/managed-service-providers) · [Salesix](https://salesix.ai/usecases/msp-contract-renewals) | Security/data-access requirements, customer trust, or existing renewal operations make a limited phone pilot impractical. |
 | 3 | Commercial contractor / service-business bid recovery | It gives the team a clear negative-control comparison: obvious revenue outcome, existing follow-up behavior, and familiar calls. | Multiple visible estimate/quote voice-agent offers indicate a crowded category. | The agent’s relationship memory and control layer does not expose a material unmet need beyond commodity automation. |
 
 ## Interview hypotheses to test — not claims to sell
@@ -49,12 +49,22 @@ For every operator, start with a past, anonymized case. Do not pitch a solution 
 | A governed calling agent can be trusted with one job | An operator can define a contact list, a single call reason, disclosure/suppression rules, escalation conditions, and a human owner. | The business cannot define a safe scope without broad autonomy, negotiation, or sensitive data access. |
 | The gain is measurable in 30 days | The operator can name a baseline and target for completed follow-ups, qualified next steps, recovered pipeline, renewal handoffs, or avoided lapse. | The result is only general productivity enthusiasm or annual revenue attribution that cannot be observed during a pilot. |
 
+## Secondary operator signals — directional only
+
+Public operator discussions reinforce two useful research questions, but they are not substitutes for the planned interviews:
+
+- MSP operators describe customers who ignore renewal, approval, security-change, billing, and expiring-domain requests across email, phone, and text. That suggests a potential **existing-client response-recovery** job, where the consequence and prior relationship are clearer than in cold prospecting. [MSP discussion: clients ignoring contact](https://www.reddit.com/r/msp/comments/1qacjjl/clients_ignoring_all_means_of_contact/)
+- Another MSP operator reports losing track of recurring services and underbilling because service, owner, and renewal data live across manual lists. This supports testing whether an accountable call can recover a specific already-authorized customer action—not whether TotalRecall should become a billing system. [MSP discussion: billing and renewals](https://www.reddit.com/r/msp/comments/1qu8w93/how_do_you_actually_track_billing_renewals/)
+- The same public discussions contain objections to over-persistent outreach. That is a reason to test clear stopping rules, a named human owner, suppression, and customer-appropriate contact policies; it is not a reason to automate more attempts. [MSP discussion: long follow-up cadence debate](https://www.reddit.com/r/msp/comments/tjexrs/68_follow_ups_or_touches_over_3_years_to_get_a_client/)
+
+Treat these as prompts for a neutral question: “Which existing-client request, if ignored, creates a concrete deadline or blocked action—and what prior context makes the next call appropriate?” A candidate still needs to clear every primary-interview gate before it can be selected.
+
 ## Research design
 
 Use the [buyer interview guide](totalrecall-buyer-interview-guide.md) for six to eight 45-minute interviews over two weeks:
 
 - two commercial-distribution / industrial-sales operators;
-- two MSP renewal or dormant-account operators;
+- two MSP operators who own existing-client renewals, approvals, security actions, or service dependencies;
 - two to four deliberately skeptical comparison interviews, starting with contractor estimate recovery and only then staffing if a responsible B2B context is available.
 
 Record one synthesis card per interview. Then score each workflow against the first-wedge rule in [product discovery](totalrecall-product-discovery.md). Select nothing until at least three interviews in one workflow show weekly pain, relationship-specific context, a measurable loss, a permitted contact basis, an accountable operator, and a useful 30-day pilot.

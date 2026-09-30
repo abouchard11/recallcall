@@ -7,7 +7,7 @@ Use this material to recruit 6-8 discovery participants without promising a prod
 Recruit two operators from each of the two highest-priority workflow hypotheses, then two to four comparison interviews that could disprove the thesis:
 
 - commercial distributor or industrial-sales teams that follow up on open quotes;
-- managed-service providers with renewals or dormant opportunities; and
+- managed-service providers with existing-client renewals, approvals, security actions, or service dependencies that require a customer response; and
 - commercial contractors or service businesses that recover bids, estimates, or missing documents; or
 - staffing agencies that reactivate candidates or stalled client conversations.
 

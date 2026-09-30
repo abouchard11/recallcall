@@ -34,7 +34,7 @@ Start with approved B2B follow-up or explicitly requested callbacks, not cold co
 | Workflow hypothesis | Why memory may matter | Initial reason to reject |
 | --- | --- | --- |
 | Commercial distributor quote follow-up | Sales history, substitutions, promised decision dates, and objections shape the next call | CRM/ERP cadence tools and quote agents may already solve the actual problem |
-| Managed-service-provider renewal and dormant-opportunity follow-up | Account context spans recurring service, proposals, incidents, and stakeholders | Security, customer trust, and existing renewal-operation tools may lengthen a pilot |
+| Managed-service-provider existing-client response recovery | Account context spans recurring service, renewal/approval deadlines, incidents, stakeholders, and prior contact attempts | Security, customer trust, and existing renewal-operation tools may lengthen a pilot |
 | Commercial contractor bid and estimate recovery | A late decision, revision, or missing document may require an informed call | The AI voice/estimate-follow-up category is visibly crowded; use as a comparison, not a default wedge |
 | Staffing-agency candidate and client reactivation | Prior fit, availability, role changes, and opt-outs matter | Specialized voice products plus consumer-contact and employment-policy risk may outweigh the wedge |
 | Property-services vendor coordination | The agent can remember open work, commitments, access constraints, and next actions | Tenant-facing calls add consumer-compliance complexity |
@@ -47,7 +47,7 @@ Identify the first customer segment in which missed or delayed follow-up creates
 
 ## Study plan
 
-Run 6-8 semi-structured operator interviews over two weeks. Recruit two participants each from commercial distribution and managed services, then use the remaining two to four interviews for a deliberately skeptical comparison: contractor estimate recovery, staffing reactivation, or a newly surfaced workflow. Prioritize people who own follow-up volume or can describe it in detail: sales managers, account managers, dispatch or operations leads, owners, or revenue-operations leaders.
+Run 6-8 semi-structured operator interviews over two weeks. Recruit two participants each from commercial distribution and managed services, then use the remaining two to four interviews for a deliberately skeptical comparison: contractor estimate recovery, staffing reactivation, or a newly surfaced workflow. For managed services, test an existing-client response-recovery job—not generic prospecting—such as an overdue approval, expiring service, security action, or other documented customer dependency. Prioritize people who own follow-up volume or can describe it in detail: sales managers, account managers, dispatch or operations leads, owners, or revenue-operations leaders.
 
 The first 35 minutes investigate actual recent follow-up events. The final 10 minutes test a deliberately narrow TotalRecall concept. Do not pitch TotalRecall before understanding the workflow.
 
