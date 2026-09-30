@@ -4,11 +4,14 @@ Use this material to recruit 6-8 discovery participants without promising a prod
 
 ## Who to recruit first
 
-Recruit two operators from each of three candidate workflows, plus one or two contrarian operators who use a different workaround:
+Recruit two operators from each of the two highest-priority workflow hypotheses, then two to four comparison interviews that could disprove the thesis:
 
 - commercial distributor or industrial-sales teams that follow up on open quotes;
 - managed-service providers with renewals or dormant opportunities; and
-- commercial contractors or service businesses that recover bids, estimates, or missing documents.
+- commercial contractors or service businesses that recover bids, estimates, or missing documents; or
+- staffing agencies that reactivate candidates or stalled client conversations.
+
+The first two are the current interview priorities, not selected markets. The comparison interviews matter because desk research already shows many visible AI-voice offerings in contractor estimate recovery and staffing reactivation. They test whether the category is merely crowded or whether a materially different memory-and-control problem remains.
 
 Prioritize the person who actually owns the follow-up queue over an executive who only sees aggregate pipeline reports.
 
