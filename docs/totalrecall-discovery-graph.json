@@ -1,0 +1,101 @@
+{
+  "name": "totalrecall-first-wedge-discovery",
+  "goal": "Identify or reject a non-veterinary first workflow for a durable-memory calling agent using six to eight operator interviews and explicit evidence gates.",
+  "stop": {
+    "maxWallMinutes": 20160,
+    "maxUsd": 0,
+    "noProgressSteps": 3
+  },
+  "loops": [
+    {
+      "id": "evidence-synthesis",
+      "nodes": ["synthesize-notes", "verify-evidence", "revise-synthesis"],
+      "maxAttempts": 2,
+      "restarts": ["synthesize-notes", "verify-evidence", "revise-synthesis"]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "select-workflow-hypotheses",
+      "dependsOn": [],
+      "owns": ["docs/totalrecall-market-scan-2026-09-30.md"],
+      "closer": "script",
+      "irreversible": false,
+      "doneWhen": "Two priority hypotheses and one skeptical comparison are recorded with falsifiers"
+    },
+    {
+      "id": "approve-recruitment-scope",
+      "dependsOn": ["select-workflow-hypotheses"],
+      "owns": ["recruitment_authority"],
+      "closer": "human",
+      "irreversible": true,
+      "doneWhen": "A human approves the communication channel, audience, and message before any invitation is sent"
+    },
+    {
+      "id": "send-research-invitations",
+      "dependsOn": ["approve-recruitment-scope"],
+      "owns": ["recruitment_log"],
+      "closer": "human",
+      "irreversible": true,
+      "doneWhen": "Six to eight research invitations are sent only through the approved channel and logged without private customer data"
+    },
+    {
+      "id": "conduct-operator-interviews",
+      "dependsOn": ["send-research-invitations"],
+      "owns": ["anonymized_interview_notes"],
+      "closer": "human",
+      "irreversible": false,
+      "doneWhen": "Six to eight operator interviews are completed using the buyer guide without collecting customer data or recordings"
+    },
+    {
+      "id": "synthesize-notes",
+      "dependsOn": ["conduct-operator-interviews"],
+      "owns": ["research_synthesis_draft"],
+      "closer": "model",
+      "irreversible": false,
+      "doneWhen": "Each interview has a complete evidence card and each workflow has supporting and contradictory observations"
+    },
+    {
+      "id": "verify-evidence",
+      "dependsOn": ["synthesize-notes"],
+      "owns": ["evidence_gate_report"],
+      "verifies": ["synthesize-notes"],
+      "closer": "script",
+      "irreversible": false,
+      "doneWhen": "The scorecard confirms sample count, required gates, and unresolved contradictions for every candidate"
+    },
+    {
+      "id": "revise-synthesis",
+      "dependsOn": ["verify-evidence"],
+      "owns": ["research_synthesis_draft"],
+      "closer": "model",
+      "irreversible": false,
+      "doneWhen": "The synthesis corrects any unsupported conclusion or declares the missing evidence"
+    },
+    {
+      "id": "select-first-wedge",
+      "dependsOn": ["revise-synthesis"],
+      "owns": ["first_wedge_decision"],
+      "closer": "human",
+      "irreversible": true,
+      "doneWhen": "A human advances one workflow only if every scorecard gate passes, or explicitly rejects and parks all candidates"
+    },
+    {
+      "id": "write-pilot-specification",
+      "dependsOn": ["select-first-wedge"],
+      "owns": ["docs/totalrecall-pilot-specification.md"],
+      "closer": "model",
+      "irreversible": false,
+      "doneWhen": "One approved call reason, relationship timeline, call policy, escalation path, and 30-day measure are specified"
+    },
+    {
+      "id": "verify-pilot-specification",
+      "dependsOn": ["write-pilot-specification"],
+      "owns": ["pilot_spec_verification"],
+      "verifies": ["write-pilot-specification"],
+      "closer": "script",
+      "irreversible": false,
+      "doneWhen": "The specification contains every required boundary and contains no unapproved autonomous action"
+    }
+  ]
+}

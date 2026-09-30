@@ -1,0 +1,23 @@
+{
+  "workflows": [
+    {
+      "name": "replace-with-workflow-name",
+      "interviews": [
+        {
+          "id": "R-01",
+          "recurringPain": false,
+          "materialConsequence": false,
+          "relationshipContext": false,
+          "contactAuthority": false,
+          "approvedCallReason": false,
+          "escalationPath": false,
+          "humanOwner": false,
+          "toolGap": false,
+          "pilotMetric": false,
+          "pilotBaseline": false,
+          "unresolvedContradiction": false
+        }
+      ]
+    }
+  ]
+}

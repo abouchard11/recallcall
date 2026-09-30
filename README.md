@@ -18,6 +18,7 @@ starts with a non-veterinary, compliance-aware research process:
 - [Buyer interview guide](docs/totalrecall-buyer-interview-guide.md)
 - [First-wedge research scorecard](docs/totalrecall-research-scorecard.md)
 - [Recruiting kit](docs/totalrecall-recruiting-kit.md)
+- [Discovery execution topology](docs/totalrecall-discovery-topology.md)
 
 Responsive Next.js prototype for a paired veterinary-practice offer:
 RecallCall reactivates overdue clients by phone, while Billy Be Good turns an
