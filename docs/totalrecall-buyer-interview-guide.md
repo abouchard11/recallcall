@@ -84,4 +84,4 @@ Create one observation card per interview:
 | Pilot signal | Specific call reason and 30-day success metric |
 | Direct quote | Verbatim evidence |
 
-After six to eight interviews, affinity-map the cards by workflow and score each candidate using the first-wedge rule in [TotalRecall product discovery](totalrecall-product-discovery.md).
+After six to eight interviews, affinity-map the cards by workflow and score each candidate using the [first-wedge scorecard](totalrecall-research-scorecard.md). The scorecard operationalizes the first-wedge rule in [TotalRecall product discovery](totalrecall-product-discovery.md); direct evidence and contradictions always accompany a numerical score.

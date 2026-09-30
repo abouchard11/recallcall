@@ -14,7 +14,10 @@ product positioning, or evidence of customer demand. Product discovery now
 starts with a non-veterinary, compliance-aware research process:
 
 - [TotalRecall product discovery](docs/totalrecall-product-discovery.md)
+- [Market scan and interview priorities](docs/totalrecall-market-scan-2026-09-30.md)
 - [Buyer interview guide](docs/totalrecall-buyer-interview-guide.md)
+- [First-wedge research scorecard](docs/totalrecall-research-scorecard.md)
+- [Recruiting kit](docs/totalrecall-recruiting-kit.md)
 
 Responsive Next.js prototype for a paired veterinary-practice offer:
 RecallCall reactivates overdue clients by phone, while Billy Be Good turns an
